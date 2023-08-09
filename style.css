@@ -31,6 +31,8 @@ body{
    right: 10px;
    transition: width .4s;
    transition-delay: 1s;
+   cursor: pointer;
+   
 }
 .input{
     background-color: transparent;
@@ -50,4 +52,8 @@ body{
 }
 .active .mic-icon{
     width: 0;
+}
+.mic-icon:active{
+    filter: brightness(1.5);
+    transform: scale(50%);
 }
